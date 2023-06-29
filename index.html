@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins&family=Ysabeau+Office&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    
+    <title>Todo-App</title>
+</head>
+<body>
+    <div class="container">
+      <div class="cir-1"></div>
+      <div class="cir-2"></div>
+        <div class="todo-app">
+                <h1> Todo list <img src="assets/download.png" alt=""></h1>
+            <div class="form">
+
+                <input type="text" id="input-box" class="todo-input" placeholder="Enter here..">
+                <button type="submit" class="todo-btn" id="add-btn" onclick="addTask()">Add</button>
+            </div>
+            <ul class="list-container" id="list">
+                <!-- <li class="checked">Task-1</li>
+                <li>Task-2</li>
+                <li>Task-3</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
